@@ -11,8 +11,7 @@
     text-decoration: none;
     color: #ffffff;
     margin: 0;
-    padding-top: calc(245/1184*100%);
-    padding-bottom: calc(245/1184*100%);
+    padding: calc(245/1184*100%) 0;
 }
 
 .cover__background::before {
@@ -32,25 +31,22 @@
   opacity: 0.8;
 }
 
-/* @media screen and (max-width: 1279px) {
+@media screen and (max-width: 1279px) {
     .cover__background {
-        max-width: 1024px;
-        height: 640px;
+        padding: calc(195/1024*100%) 0;
     }
 }
 
 @media screen and (max-width: 1023px) {
     .cover__background {
-        max-width: 768px;
-        height: 480px;
+        padding: calc(115/768*100%) 0;
     }
 }
 
 @media screen and (max-width: 767px) {
     .cover__background {
-        max-width: 320px;
-        height: 200px;
+        padding: calc(33/320*100%) 0;
     }
-} */
+}
 
 

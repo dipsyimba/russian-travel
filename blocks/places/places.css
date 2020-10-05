@@ -13,6 +13,7 @@
     .places {
         max-width: 720px;
         margin-bottom: 88px;
+        margin-top: 88px;
     }
 }
 
@@ -20,5 +21,6 @@
     .places {
         max-width: 320px;
         margin-bottom: 64px;
+        margin-top: 64px;
     }
 }
